@@ -134,6 +134,8 @@ const CalcuquoteForm = () => {
       <CQTextArea name="intro" label="Intro" required={true} showCount={true} />
 
       <CQButton label="Register" type="primary" {...tailFormItemLayout} htmlType="submit"/>
+      <CQButton label="Register" type="primary" ghost='true' {...tailFormItemLayout}/>
+      <CQButton label="Delete" type="danger" {...tailFormItemLayout} />
 
      <CQMenu/>
      <Dropdown overlay={menu}>
